@@ -1,0 +1,177 @@
+body {
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+font-weight: 700;
+}
+.white-font {
+color: #fff;
+}
+p {
+color: #8f8f8f;
+}
+
+
+/* Backdrops */
+.rosy-background {
+background-color: #ff4c68;
+}
+.peachy-background {
+background-color: #ef8172;
+}
+.white-background {
+background-color: #fff;
+}
+
+
+/* Headings */
+.major-heading {
+line-height: 1.5;
+font-size: 3.5rem;
+font-weight: 900;
+}
+.minor-heading {
+line-height: 1.5;
+font-size: 3rem;
+}
+
+
+/* Buttons */
+.download-button {
+margin: 5% 3% 5% 0;
+}
+
+
+/* Header Section */
+.header-container {
+padding: 3% 14% 7%;
+}
+.navbar-brand {
+font-family: 'Ubuntu', sans-serif;
+font-size: 2.2rem;
+font-weight: 500;
+}
+.nav-link {
+font-size: 1.2rem;
+font-weight: 300;
+}
+
+.nav-item {
+padding: 0 20px;
+}
+
+
+/* Title Section */
+.title-container {
+padding: 0 15% 7%;
+text-align: left;
+margin-bottom: -17%;
+}
+.title-image {
+width: 60%;
+transform: rotatez(20deg);
+position: relative;
+right: -15%;
+}
+@media (max-width: 1026px) {
+.title-container {
+text-align: center;
+margin-bottom: 0;
+}
+.title-image {
+transform: rotatez(0deg);
+right: 0;
+}
+}
+
+/* Features Section */
+.features-container {
+position: relative;
+padding: 50px 100px;
+}
+.feature-icon {
+color: #ef8172;
+margin-bottom: 2rem;
+}
+.feature-icon:hover {
+color: #ff4c68;
+}
+.feature-heading {
+font-size: 1.7rem;
+padding-bottom: 1rem;
+}
+.feature-subheading {
+font-size: 1.2rem;
+}
+.feature-item {
+padding: 5% 2%;
+margin: 10% 0;
+}
+
+
+/* Testimonials Section */
+.testimonials-container {
+padding: 7% 15% 60px;
+}
+.testimonial-quote {
+line-height: 1.5;
+font-size: 2.5rem;
+}
+.testimonial-image {
+width: 100px;
+margin: 3% 15px;
+border-radius: 100%;
+}
+.carousel-indicators {
+margin-bottom: 0;
+}
+
+
+/* Press section */
+.press-container {
+padding: 5% 14% 2.5%;
+}
+.press-logo {
+width: 200px;
+margin: 5% 10px;
+}
+@media (max-width: 1026px) {
+.press-container {
+padding: 7% 25%;
+}
+}
+
+
+/* Pricing section */
+.pricing-container {
+  padding: 100px 100px 50px;
+}
+.pricing-column {
+  padding: 5% 2%;
+}
+.pricing-heading {
+padding-bottom: 1%;
+}
+.pricing-subheading {
+font-size: 1.3rem;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Call To Action section */
+.cta-container {
+padding: 15%;
+}
+
+
+/* Footer */
+.footer-container {
+padding: 1%;
+}
+.footer-icon {
+margin: 10px 5px 20px;
+}
